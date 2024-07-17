@@ -12,7 +12,7 @@ const Services = () => {
         <div className=' text-white py-16'>
             <div className='text-center mb-12'>
                 <h1 className='text-4xl font-bold mb-5'>Services</h1>
-                <p className='text-lg text-stone-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ut iure ab voluptatem nobis repudiandae beatae quae.</p>
+                <p className='text-lg text-stone-400'>Offering web development, UI/UX design, responsive design, SEO optimization, e-commerce solutions, and content management services</p>
             </div>
             <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6'>
                 {services.map((item) => (

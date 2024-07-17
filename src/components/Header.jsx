@@ -1,6 +1,8 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
+import logo from "../../public/logo.png"
+import Image from 'next/image'
 const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'Services', href: '/about', current: false },
@@ -14,7 +16,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-black">
+    <Disclosure as="nav" className="bg-neutral-800">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -28,10 +30,10 @@ export default function Header() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
-              <img
+              <Image
                 alt="Your Company"
-                src="https://w7.pngwing.com/pngs/636/285/png-transparent-rogers-communications-logo-rogers-wireless-advertising-company-wireless-miscellaneous-company-text.png"
-                className="h-8 w-auto"
+                src={logo}
+                className="h-auto w-20"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">

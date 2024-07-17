@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import ProfilePic from '../../public/ProfilePic1.png'
-
+import Skills from './Skills'
 const About = () => {
   return (
     <div className="text-white py-16 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-2">About Me</h1>
-          <p className="text-stone-400 mb-6">User Interface And User Experience And Also Video Editing</p>
+          <p className="text-stone-400 mb-6">Frontend And Backend Development And Also Database Management </p>
         </div>
         <div className="lg:flex lg:items-center">
           <div className="lg:w-1/2 lg:pr-10 mb-8 lg:mb-0">
@@ -21,6 +21,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <Skills/>
       
     </div>
   )
