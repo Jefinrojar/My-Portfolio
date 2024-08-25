@@ -14,6 +14,7 @@ const page = () => {
       <MyProjects/>
       <Contact/>
 
+
     </div>
   )
 }
