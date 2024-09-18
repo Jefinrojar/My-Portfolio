@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import ProfilePic from '../../public/ProfilePic1.png';
+import ProfilePic from '../../public/ProfilePic.jpg';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
@@ -114,18 +114,20 @@ const Hero = () => {
           </motion.div>
         </div>
         <motion.div
-          className="lg:w-2/6 lg:mt-0 mt-8"
+          className="lg:w-2/6 lg:mt-0 mt-8 relative"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1.2 }}
         >
-          <Image
-            src={ProfilePic}
-            alt="Jefinrojar"
-            width={400}
-            height={400}
-            className="rounded-full"
-          />
+          <div className="relative group">
+            <Image
+              src={ProfilePic}
+              alt="Jefinrojar"
+              width={400}
+              height={400}
+              className="rounded-full border-4 border-gradient-to-r from-orange-500 to-yellow-500 shadow-lg transition-transform duration-500 transform group-hover:scale-105"
+            />
+          </div>
         </motion.div>
       </div>
     </div>
