@@ -17,10 +17,8 @@ const Footer = () => {
           </ul>
         </nav>
         <div className="flex justify-center space-x-6 mb-4">
-          <a href="#" className="hover:text-gray-400"><FaInstagram /></a>
-          <a href="#" className="hover:text-gray-400"><FaLinkedin /></a>
-          <a href="#" className="hover:text-gray-400"><FaGithub /></a>
-          <a href="#" className="hover:text-gray-400"><FaBehance /></a>
+          <a href="https://www.linkedin.com/in/jefin-rojar-j" target='__blank' className="hover:text-gray-400"><FaLinkedin /></a>
+          <a href="https://github.com/Jefinrojar" target='__blank' className="hover:text-gray-400"><FaGithub /></a>
         </div>
         <div className="flex justify-center space-x-6 mb-4">
           <a href="mailto:jefinrojar@gmail.com" className="flex items-center hover:text-gray-400">

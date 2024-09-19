@@ -83,7 +83,7 @@ const Hero = () => {
             >
               Hire Me
             </motion.button>
-            <Link href="https://drive.google.com/file/d/1R1OBdr0wtm-CxHh6x5mGgMt7cGReuegP/view?usp=sharing">
+            <Link target='__blank' href="https://drive.google.com/file/d/1R1OBdr0wtm-CxHh6x5mGgMt7cGReuegP/view?usp=sharing">
               <motion.button
                 className="border border-gray-600 px-4 py-2 rounded"
                 whileHover={{ scale: 1.1 }}
@@ -125,10 +125,11 @@ const Hero = () => {
               alt="Jefinrojar"
               width={400}
               height={400}
-              className="rounded-full border-4 border-gradient-to-r from-orange-500 to-yellow-500 shadow-lg transition-transform duration-500 transform group-hover:scale-105"
+              className="rounded-full border-4 border-gradient-to-r from-orange-500 to-yellow-500 shadow-lg object-cover transition-transform duration-500 transform group-hover:scale-105"
             />
           </div>
         </motion.div>
+
       </div>
     </div>
   );
