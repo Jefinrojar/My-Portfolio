@@ -53,7 +53,7 @@ const About = () => {
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
             ref={imageRef}
           >
-            <Image src={AboutPic} alt="Profile Picture" width={500} height={600} className="rounded-lg" />
+            <Image src={AboutPic} alt="Profile Picture" width={500} height={600} className="rounded-lg border-4 border-stone-800 shadow-sm" />
           </motion.div>
           <motion.div
             className="lg:w-1/2"

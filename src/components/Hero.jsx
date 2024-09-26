@@ -123,7 +123,7 @@ const Hero = () => {
             <Image
               src={ProfilePic}
               alt="Jefinrojar"
-              width={400}
+              width={700}
               height={400}
               className="rounded-full border-4 border-gradient-to-r from-orange-500 to-yellow-500 shadow-lg object-cover transition-transform duration-500 transform group-hover:scale-105"
             />
